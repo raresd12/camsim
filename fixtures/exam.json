@@ -1,0 +1,313 @@
+{
+  "formatVersion": 1,
+  "meta": {
+    "id": "sample-c1-001",
+    "title": "CamSim Sample Exam (mini)",
+    "level": "C1",
+    "source": "CamSim fixtures — 2 questions per part for testing"
+  },
+  "reading": {
+    "durationMinutes": 90,
+    "parts": [
+      {
+        "id": "r1",
+        "type": "mc-cloze",
+        "title": "City Cycling",
+        "instructions": "For questions 1-2, read the text and decide which answer (A, B, C or D) best fits each gap.",
+        "text": "Cycling in large cities has {{1}} a remarkable revival over the past decade. Planners now {{2}} bicycles as central to urban transport policy.",
+        "questions": [
+          { "id": "r1q1", "number": 1, "options": ["undergone", "undertaken", "undermined", "understood"], "answer": "A" },
+          { "id": "r1q2", "number": 2, "options": ["consider", "regard", "look", "judge"], "answer": "B" }
+        ]
+      },
+      {
+        "id": "r2",
+        "type": "open-cloze",
+        "title": "The Science of Sleep",
+        "instructions": "For questions 3-4, read the text and think of the word which best fits each gap. Use only one word in each gap.",
+        "text": "Sleep is far {{3}} important than many people realise. Without enough of it, concentration suffers, {{4}} does long-term health.",
+        "questions": [
+          { "id": "r2q3", "number": 3, "acceptedAnswers": ["more"] },
+          { "id": "r2q4", "number": 4, "acceptedAnswers": ["as", "so"] }
+        ]
+      },
+      {
+        "id": "r3",
+        "type": "word-formation",
+        "title": "Urban Gardens",
+        "instructions": "For questions 5-6, use the word given in capitals to form a word that fits in the gap.",
+        "text": "Community gardens have grown in {{5}} across Europe. Their supporters point to clear {{6}} for mental health.",
+        "questions": [
+          { "id": "r3q5", "number": 5, "stem": "POPULAR", "acceptedAnswers": ["popularity"] },
+          { "id": "r3q6", "number": 6, "stem": "BENEFIT", "acceptedAnswers": ["benefits"] }
+        ]
+      },
+      {
+        "id": "r4",
+        "type": "key-word-transformation",
+        "instructions": "For questions 7-8, complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Use between three and six words, including the word given.",
+        "questions": [
+          {
+            "id": "r4q7",
+            "number": 7,
+            "leadIn": "The concert was cancelled because the weather was bad.",
+            "keyWord": "DUE",
+            "gapped": "The concert was cancelled {{gap}} weather.",
+            "acceptedAnswers": ["due to the bad", "due to bad"],
+            "halves": { "first": ["due to"], "second": ["the bad", "bad"] }
+          },
+          {
+            "id": "r4q8",
+            "number": 8,
+            "leadIn": "I have never seen such a beautiful sunset before.",
+            "keyWord": "TIME",
+            "gapped": "This is the first {{gap}} such a beautiful sunset.",
+            "acceptedAnswers": ["time i have seen", "time i have ever seen", "time that i have seen"]
+          }
+        ]
+      },
+      {
+        "id": "r5",
+        "type": "mc-reading",
+        "title": "A Life in Maps",
+        "instructions": "For questions 9-10, read the text and choose the answer (A, B, C or D) which you think fits best according to the text.",
+        "text": "When Eleanor Price began collecting antique maps, she had no intention of becoming an authority on cartographic history. Yet within a decade her private archive was consulted by museums across the continent. What drew her, she says, was never the rarity of the objects but the stories of error they preserved: coastlines guessed at, islands invented by hopeful explorers, whole mountain ranges placed a hundred miles adrift. 'A map is a confession,' she likes to say. 'It admits exactly how much its maker did not know.'",
+        "questions": [
+          {
+            "id": "r5q9",
+            "number": 9,
+            "prompt": "What first attracted Eleanor Price to antique maps?",
+            "options": ["Their scarcity and value", "The mistakes they contain", "Their usefulness to museums", "The fame they brought her"],
+            "answer": "B"
+          },
+          {
+            "id": "r5q10",
+            "number": 10,
+            "prompt": "By calling a map 'a confession', Price suggests that maps",
+            "options": ["reveal the limits of their makers' knowledge", "should be treated as legal documents", "were often deliberately falsified", "are more honest than modern charts"],
+            "answer": "A"
+          }
+        ]
+      },
+      {
+        "id": "r6",
+        "type": "cross-text",
+        "title": "Four reviewers on remote work",
+        "instructions": "For questions 11-12, read the four extracts and choose from the reviewers A-D.",
+        "texts": [
+          { "label": "A", "text": "Remote work has unquestionably widened access to careers once gated by geography, and the productivity data largely supports it." },
+          { "label": "B", "text": "The supposed productivity gains of remote work evaporate under scrutiny; what the data really shows is longer hours, not better output." },
+          { "label": "C", "text": "Like reviewer A, I find the evidence on output broadly positive, though I worry the youngest employees lose the apprenticeship of the office." },
+          { "label": "D", "text": "The debate fixates on productivity when the real story is the quiet erosion of workplace community and mentorship." }
+        ],
+        "questions": [
+          { "id": "r6q11", "number": 11, "prompt": "Which reviewer shares reviewer A's opinion about the productivity evidence?", "answer": "C" },
+          { "id": "r6q12", "number": 12, "prompt": "Which reviewer has a different opinion from the others about what the data on remote work demonstrates?", "answer": "B" }
+        ]
+      },
+      {
+        "id": "r7",
+        "type": "gapped-text",
+        "title": "The Return of the Wolves",
+        "instructions": "For questions 13-14, choose from the paragraphs A-C the one which fits each gap. There is one extra paragraph which you do not need to use.",
+        "text": "When wolves were reintroduced to the national park, ecologists predicted modest changes to deer behaviour. {{13}} Rivers, remarkably, were among the beneficiaries: with riverside vegetation recovering, banks stabilised and channels narrowed. {{14}} The lesson, researchers say, is that the removal of a single species can quietly reorganise an entire landscape — and its return can reorganise it again.",
+        "options": [
+          { "label": "A", "text": "What followed instead was a cascade: deer abandoned the exposed valleys, willow and aspen surged back, and beavers returned to build dams in streams that had run thin for decades." },
+          { "label": "B", "text": "Critics of the programme, however, point to the cost to local farmers, whose losses were never fully compensated." },
+          { "label": "C", "text": "Songbirds followed the new growth, and the changed channels created pools where fish and amphibians multiplied." }
+        ],
+        "questions": [
+          { "id": "r7q13", "number": 13, "answer": "A" },
+          { "id": "r7q14", "number": 14, "answer": "C" }
+        ]
+      },
+      {
+        "id": "r8",
+        "type": "multiple-matching",
+        "title": "Four scientists on fieldwork",
+        "instructions": "For questions 15-16, choose from the sections A-D. The sections may be chosen more than once.",
+        "sections": [
+          { "label": "A", "text": "My first expedition nearly ended my career — I had romanticised fieldwork so thoroughly that the boredom and discomfort came as a shock." },
+          { "label": "B", "text": "Nothing in a laboratory replicates the moment a hypothesis collapses in front of you in the field; I learned to treasure being wrong quickly." },
+          { "label": "C", "text": "Funding bodies imagine fieldwork as data collection, but its real value is the unplanned conversation with people who live beside your study site." },
+          { "label": "D", "text": "I keep returning for the discipline it imposes: in the field you cannot postpone a decision, and that urgency sharpens judgement." }
+        ],
+        "questions": [
+          { "id": "r8q15", "number": 15, "prompt": "Which scientist values fieldwork for forcing rapid decision-making?", "answer": "D" },
+          { "id": "r8q16", "number": 16, "prompt": "Which scientist found that fieldwork did not match their expectations?", "answer": "A" }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "durationMinutes": 90,
+    "part1": {
+      "taskType": "essay",
+      "prompt": "Your class has attended a panel discussion on what governments should do to encourage healthier lifestyles. You have made the notes below. Write an essay discussing two of the methods in your notes. You should explain which method you think is more effective, giving reasons in support of your answer.",
+      "notes": ["taxing unhealthy food", "funding public sports facilities", "education campaigns in schools"],
+      "wordMin": 220,
+      "wordMax": 260
+    },
+    "part2": {
+      "options": [
+        {
+          "id": "w2a",
+          "taskType": "email-letter",
+          "prompt": "You recently spent a month working as a volunteer at an international summer camp. The camp director has written asking for your feedback and suggestions for next year. Write your letter in reply.",
+          "wordMin": 220,
+          "wordMax": 260
+        },
+        {
+          "id": "w2b",
+          "taskType": "proposal",
+          "prompt": "Your town council has announced funding for one new community project. Write a proposal for a project of your choice, explaining what it would involve, who would benefit, and why it deserves the funding.",
+          "wordMin": 220,
+          "wordMax": 260
+        },
+        {
+          "id": "w2c",
+          "taskType": "review",
+          "prompt": "A website for language learners is collecting reviews of podcasts. Write a review of a podcast you listen to regularly, describing what makes it distinctive and saying who you would recommend it to.",
+          "wordMin": 220,
+          "wordMax": 260
+        }
+      ]
+    }
+  },
+  "listening": {
+    "durationMinutes": 40,
+    "parts": [
+      {
+        "id": "l1",
+        "type": "mc-extracts",
+        "instructions": "You will hear three different extracts. For questions 1-2, choose the answer (A, B or C) which fits best according to what you hear.",
+        "audioFile": "audio/listening-part1.wav",
+        "transcript": "Extract One. You hear two friends discussing a photography exhibition. Woman: I expected the landscapes to steal the show, but honestly it was the portraits that stayed with me — there was something unguarded about them. Man: Funny, I went for the portraits and left raving about the curation; the way they sequenced the rooms told a story of its own.",
+        "questions": [
+          {
+            "id": "l1q1",
+            "number": 1,
+            "extractLabel": "Extract One",
+            "prompt": "What impressed the woman most about the exhibition?",
+            "options": ["the landscape photographs", "the portrait photographs", "the way the rooms were arranged"],
+            "answer": "B"
+          },
+          {
+            "id": "l1q2",
+            "number": 2,
+            "extractLabel": "Extract One",
+            "prompt": "The man and the woman agree that the exhibition",
+            "options": ["was worth attending", "was poorly organised", "focused too much on landscapes"],
+            "answer": "A"
+          }
+        ]
+      },
+      {
+        "id": "l2",
+        "type": "sentence-completion",
+        "instructions": "You will hear a marine biologist talking about her work. For questions 3-4, complete the sentences with a word or short phrase.",
+        "audioFile": "audio/listening-part2.wav",
+        "transcript": "When people picture marine biology they imagine dolphins, but I've spent eleven years studying seagrass. It's not glamorous, yet seagrass meadows store carbon faster than rainforests. The hardest part of my job isn't the diving — it's the paperwork that follows every single expedition.",
+        "questions": [
+          { "id": "l2q3", "number": 3, "sentence": "The speaker has spent eleven years studying {{3}}.", "acceptedAnswers": ["seagrass"] },
+          { "id": "l2q4", "number": 4, "sentence": "She says the most difficult part of her job is the {{4}}.", "acceptedAnswers": ["paperwork"] }
+        ]
+      },
+      {
+        "id": "l3",
+        "type": "mc-interview",
+        "instructions": "You will hear an interview with a chess grandmaster. For questions 5-6, choose the answer (A, B, C or D) which fits best according to what you hear.",
+        "audioFile": "audio/listening-part3.wav",
+        "transcript": "Interviewer: You learned chess unusually late. Grandmaster: At fourteen, yes — and I think that saved me. I never absorbed the dogma young players are fed, so I questioned everything, which became my style. Interviewer: And the computers? Grandmaster: People say engines killed creativity. I'd argue the opposite — they freed us to try ideas that would once have been dismissed as absurd.",
+        "questions": [
+          {
+            "id": "l3q5",
+            "number": 5,
+            "prompt": "The grandmaster believes learning chess late",
+            "options": ["delayed his progress significantly", "made him question accepted ideas", "forced him to study harder than others", "kept him from developing a style"],
+            "answer": "B"
+          },
+          {
+            "id": "l3q6",
+            "number": 6,
+            "prompt": "What is the grandmaster's view of chess engines?",
+            "options": ["They have made the game predictable", "They discourage absurd ideas", "They have expanded creative possibilities", "They matter less than people claim"],
+            "answer": "C"
+          }
+        ]
+      },
+      {
+        "id": "l4",
+        "type": "multiple-matching-listening",
+        "instructions": "You will hear two short extracts in which people talk about changing careers. For questions 7-8, choose what each speaker says from the list A-D.",
+        "audioFile": "audio/listening-part4.wav",
+        "transcript": "Speaker One: Everyone assumed I left teaching for the salary, but the truth is I'd stopped learning anything new myself — the move terrified me and that was exactly the point. Speaker Two: I'd planned my switch for years, spreadsheets and all, and then a chance conversation at a wedding undid the whole plan and handed me a better one.",
+        "tasks": [
+          {
+            "instructions": "Choose what each speaker says about changing careers.",
+            "options": [
+              { "label": "A", "text": "A spontaneous encounter changed my direction." },
+              { "label": "B", "text": "I wanted to be challenged again." },
+              { "label": "C", "text": "I regretted the change at first." },
+              { "label": "D", "text": "Money was my main motivation." }
+            ],
+            "questions": [
+              { "id": "l4q7", "number": 7, "prompt": "Speaker One", "answer": "B" },
+              { "id": "l4q8", "number": 8, "prompt": "Speaker Two", "answer": "A" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "speaking": {
+    "parts": [
+      {
+        "id": "s1",
+        "type": "interview",
+        "title": "Part 1 — Interview",
+        "examinerScript": [
+          "Good morning. My name is Alex and this is a simulated speaking test.",
+          "First of all, where are you from, and what do you do there?",
+          "And what do you enjoy most about learning English?"
+        ],
+        "prepSeconds": 0,
+        "responseSeconds": 60
+      },
+      {
+        "id": "s2",
+        "type": "long-turn",
+        "title": "Part 2 — Long turn",
+        "examinerScript": [
+          "In this part of the test, I'd like you to talk on your own for about a minute.",
+          "I'd like you to compare two ways people spend their free time — one active, one relaxing — and say why people might choose each one."
+        ],
+        "prepSeconds": 15,
+        "responseSeconds": 60
+      },
+      {
+        "id": "s3",
+        "type": "collaborative",
+        "title": "Part 3 — Collaborative task",
+        "examinerScript": [
+          "Now, imagine a town wants to encourage residents to use less energy at home.",
+          "Talk about the advantages and disadvantages of these ideas: a public awareness campaign, financial rewards for low usage, and stricter building rules.",
+          "Then say which idea you think would be most effective. In the real exam you would discuss this with a partner; here, please discuss it aloud on your own."
+        ],
+        "prepSeconds": 15,
+        "responseSeconds": 90
+      },
+      {
+        "id": "s4",
+        "type": "discussion",
+        "title": "Part 4 — Discussion",
+        "examinerScript": [
+          "Some people say individuals can do little about energy use and that only governments can make a difference. What do you think?",
+          "And do you think life in your country uses more energy than it did a generation ago? Why might that be?"
+        ],
+        "prepSeconds": 0,
+        "responseSeconds": 90
+      }
+    ]
+  }
+}
